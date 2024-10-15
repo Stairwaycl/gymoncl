@@ -1,12 +1,12 @@
 databases:
-  - name: mysite
-    databaseName: mysite
-    user: mysite
+  - name: gymoncl
+    databaseName: gymoncl
+    user: Stairwaycl
     plan: free
 
 services:
   - type: web
-    name: mysite
+    name: gymoncl
     runtime: ruby
     plan: free
     buildCommand: "./bin/render-build.sh"
