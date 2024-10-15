@@ -1,7 +1,7 @@
 databases:
-  - name: gymoncl
-    databaseName: gymoncl
-    user: Stairwaycl
+  - name: mysite
+    databaseName: mysite
+    user: mysite
     plan: free
 
 services:
